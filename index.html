@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <!-- JavaScript Part 3 -->
 
+
 <html>
 
 <head>
-    <title>
-
-    </title>
+    <meta charset="utf-8">
+    <title></title>
     <script src="script.js"></script>
 </head>
 
 <body>
+    <h2>JavaScript Can Validate Input</h2>
+
+    <p>Please input you're Full Name</p>
+    
+    <form>
+        <label for="firstName">First Name:</label>
+        <input id="firstName">
+        <br><br>
+        <label for="middleName">Middle Name:</label>
+        <input id="middleName">
+        <br></br>
+        <label for="lastName">Last Name:</label>
+        <input id="lastName">
+        <br><br>
+        <button type="button" onclick="nameInfo()">Submit</button>
+    
+    <p id="fullName"></p>
 
 </body>
 
